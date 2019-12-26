@@ -18,6 +18,7 @@ export default {
       },
  
     computed:mapGetters(['allTodos']),
+    
     created() {
        this.fetchTodos()
     }
